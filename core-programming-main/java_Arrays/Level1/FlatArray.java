@@ -15,7 +15,6 @@ public class FlatArray {
                 arr[i][j] = sc.nextInt();
             }
         }
-        
         int[] flatArray = new int[row * col];
 
         int k = 0;
@@ -25,7 +24,6 @@ public class FlatArray {
                 flatArray[k++] = arr[i][j];
             }
         }
-
         for (int i = 0; i < row * col; i++) {
             System.out.print(flatArray[i] + " ");
         }

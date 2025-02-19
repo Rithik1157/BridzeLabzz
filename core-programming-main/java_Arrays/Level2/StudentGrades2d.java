@@ -10,7 +10,7 @@ public class StudentGrades2d {
         double[] percentage = new double[number];
         String[] grade = new String[number];
 
-        for (int i = 0; i < number; i++) {
+        for(int i = 0; i < number; i++) {
             System.out.println("Enter the marks of student " + (i + 1) + " in physics: ");
             studentData[i][0] = sc.nextDouble();
             if (studentData[i][0] < 0) {
@@ -54,5 +54,6 @@ public class StudentGrades2d {
             System.out.println("Student " + (i + 1) + " marks: ");
             System.out.println("Physics: " + studentData[i][0]);
             System.out.println("Chemistry: " + studentData[i][1]);
+    }
     }
 }
